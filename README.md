@@ -1,7 +1,32 @@
-# Challenges d'intelligence artificielle du 404 CTF de l'édition 2024
+<div align="center">
+  <img src="assets/logo.png" style="width: 40%">
+  <h1 style=>404 CTF - Édition 2024</h1>
 
-Ce répertoire contient tous les fichiers pour jouer aux challenges d'intelligence artificielle du 404 CTF, ainsi que les 
-solutions et l'implémentation du serveur de vérification. 
+  <p>
+    Éditions précédentes | <i>Previous editions</i>
+    <br>
+    <a href="https://github.com/HackademINT/404CTF-2022">2022</a> | <a href="https://github.com/HackademINT/404CTF-2023">2023</a>
+  </p>
+</div>
+
+<div align="center">
+  <h1>Intelligence Artificielle - <i>Artificial Intelligence</i></h1>
+  <p>
+    L'intelligence artificielle est à la mode ! Mais savez vous vraiment vous en servir ? Ces challenges nécessitent d'utiliser des techniques d'intelligence artifielle, voir même de savoir les attaquer ! Je compte rajouter des ressources et peaufiner mes WU dans les prochaines semaines. N'hésitez pas à me contacter sur discord si vous souhaitez plus d'informations. - Sckathach#9336 sur le discord du 404 CTF. 
+  </p>
+  <p>
+    <i>
+      Artificial intelligence is all the rage! But do you really know how to use it? These challenges require you to use artificial intelligence techniques, and even know how to attack them! I plan to add more resources and refine my WU over the coming weeks. Don't hesitate to contact me on discord if you'd like more information. Sckathach#9336 on the 404 CTF's official discord.
+    </i>
+  </p>
+  
+</div>
+
+## Challenges
+- 🟦 Du poison [1/2]
+- 🟩 Du poison [2/2]
+- 🟧 Des portes dérobées
+- 🟧 Du poison [3/2]
 
 ## Structure du répertoire
 ### Partie joueur 
@@ -69,7 +94,8 @@ python -m api.main
 ```
 
 ## Installation de la partie challenges sur Linux
-***&rarr; Attention, il faut récupérer la version 2.15 de tensorflow.***
+> [!WARNING]
+> ***&rarr;Il faut récupérer la version 2.15 de tensorflow.***
 
 ### Avec un environnement virtuel python
 ```shell
@@ -102,10 +128,14 @@ conda install jupyter pandas matplotlib
 ```shell
 pacman -S tensorflow 
 ```
+> [!NOTE]
 > Il faudra alors demander à l'environnement virtuel de tout prendre en compte : `python -m venv --system-site-packages .venv`.
 
 ## Installation de la partie challenges sur autre chose que Linux
-Bonne chance :)
+> [!TIP]
+> Bonne chance :)
 
 ## Challenges sur Colab
 Il est possible de faire tous les challenges sur Google Colab pour ne pas avoir à utiliser votre ordinateur. Pensez juste à ajouter le module `fl` comportant toutes les fonctions utilitaires dans votre session. 
+
+
